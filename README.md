@@ -21,10 +21,6 @@
 
 <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4ynbj3x0j313i0l0gmn.jpg" style="zoom:50%;">
 
-
-
-
-
 ### 02 딥러닝 학습 방법 및 결과
 
 ##### 딥러닝 모델 학습 방법
@@ -37,11 +33,15 @@
 
   표 1. 사전 학습 딥러닝 모델 정보
 
-###### <img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림1.png" alt="그림1" style="zoom:22%;" />	
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4z872znfj323v0jvjvn.jpg" style="zoom:20%;">
+
+​	
 
 ​	표 2.  사전 학습 딥러닝의 tokenizing 결과
 
-<img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림2.png" alt="그림2" style="zoom: 25%;" />
+<img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4z907tmkj33a90jvtfn.jpg" style="zoom:22%;">
+
+
 
 
 
@@ -55,13 +55,17 @@
 
   ​	그림 2. 한국어 기초 사전 예문 데이터
 
-  <img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림3.png" alt="그림3" style="zoom:50%;" />
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4z9bnxacj32ca0jqgpc.jpg" style="zoom:20%;">
+
+  
 
   
 
   ​	표 3  . CoLA 데이터 셋 예시 (Lable → 1 : 문법성 문장,  0 : 비문법성 문장)
 
-<img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림4.png" alt="그림3" style="zoom: 25%;" />
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4z9bnxacj32ca0jqgpc.jpg" style="zoom:20%;">
+
+
 
 
 
@@ -86,7 +90,9 @@
 
   표 4, 성능 지표 Confusion Matrix
 
-  <img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림5.png" alt="그림5" style="zoom:22%;" />
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4z9dl7qjj31zt0g140s.jpg" style="zoom:20%;">
+
+  
 
 
 
@@ -98,13 +104,19 @@
 
   - EX) KoElectra : tunib-Electra : KoCharElectra = 3:1:1
 
-  표 5 . 단일 모델 학습 결과<img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림6.png" alt="그림6" style="zoom:25%;" />
+  표 5 . 단일 모델 학습 결과
+
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4za9e7kcj32um0pc0xk.jpg" style="zoom:20%;">
+
+  
 
   
 
   표 6 . 앙상블 모델 학습 결과
 
-  <img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림7.png" alt="그림7" style="zoom:25%;" />
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4zacj19uj32v40fj427.jpg" style="zoom:20%;">
+
+  
 
 
 
@@ -128,7 +140,9 @@
 
   그림 3 . 사용된 프레임 워크 입력과 출력 구조
 
-<img src="/Users/nohda/local_code/sw_2_project/ssed/img/그림8.png" alt="그림8" style="zoom:25%;" />
+  <img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4zacj19uj32v40fj427.jpg" style="zoom:10%;">
+
+
 
 ### **04** **웹 구현 화면 및 구성**
 
@@ -139,10 +153,14 @@
 
 
 - **Header**
+
   - 프로그램의 시작 화면
+
   - 하단의 이동하기 버튼 또는 스크롤을 이용하여 **Reader**로 이동 가능
 
-![화면1](/Users/nohda/local_code/sw_2_project/ssed/img/화면1.png)
+    
+
+<img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4zb917szj31640piwgb.jpg" style="zoom:30%;">
 
 
 
@@ -151,10 +169,12 @@
   - 문장의 오류 검사가 필요한 문장을 입력 후 검사하기 버튼을 클릭하여 검사 진행
   - 검사가 끝난 후 수정하기 버튼을 클릭하면 재 검색
 
-![화면2](/Users/nohda/local_code/sw_2_project/ssed/img/화면2.png)
+<img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4zbaxn84j31640podhb.jpg" style="zoom:30%;">
+
+
 
 - **Help**
   - 사용자에게 프로그램 사용법 제공
   - 프로그램에 사용된 딥러닝 모델 학습 방법 기술
 
-![화면3](/Users/nohda/local_code/sw_2_project/ssed/img/화면3.png)
+<img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4zbcx7sqj315k0p00vy.jpg" style="zoom:30%;">
