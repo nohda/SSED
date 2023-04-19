@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2196f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(30px + 2vmin); */
+  font-weight: bold;
+  color: whitesmoke;
+}
+.header{
+  margin-top: 150px;
+  font-size: calc(30px + 2vmin);
+}
+.title{
+  margin-top: 100px;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+}
+.App-link {
+  color: #61dafb;
+}
+.navbar{
+  background-color: black;
+  align-items: left;
+  display: flex;
+  font-size: 14px;
+  margin: 5px black;
+  /* border-top: 3px solid #0068bf;
+  border-bottom: 3px solid #0068bf; */
+}
+.nav-item{
+  justify-content: flex-end;
+  color: #e1f5fe;
+  margin : auto;
+  font-weight: bold;
+
+}
+.section_disply{
+  min-height: 80vh;
+}
+.input_box{
+  border-width: 1px;
+  /* border-color: #004c8c; */
+  color: red;
+  border-style: solid;
+  border-radius: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 70%;
+  height: 40vh;
+}
+.section_btn{
+  margin-top: 20px;
+  background-color: #0068bf;
+  font-weight: bold;
+}
+.help_disply{
+  min-height: 100vh;
+  background-color: #e0e0e0;
+}
+.help_title{
+  padding-top: 50px;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  align-items: left;
+}
+
+.btn-lg{
+  background-color: #0068bf;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 200px;
+}
+.help_dec{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 30px;
+  text-align: left;
+}
+.help_section{
+  /* width: 80%; */
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+.help_text{
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.sentence{
+  width: 500px;
+  margin-bottom: 30px;
+  /* border-bottom: 0.5px solid darkgray; */
+}
+.help_border{
+  /* border-right:4px dotted darkgray; */
+}
+.help_sentence{
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

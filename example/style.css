@@ -1,0 +1,8 @@
+.title_{
+    color : white;
+    align-items: center;
+    /* padding: 30px; */
+    font-size: 50px;
+    display: flex;
+    padding : 300px;
+}
