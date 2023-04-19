@@ -19,6 +19,8 @@
 
 ​		그림 1. 딥러닝을 이용한 문장의 오류 판단기 실행 모습
 
+<img src="https://tva1.sinaimg.cn/large/008vOhrAgy1hd4ynbj3x0j313i0l0gmn.jpg">
+
 <img src="/Users/nohda/local_code/sw_2_project/ssed/img/image-20230419144318373.png" alt="image-20230419144318373" style="zoom:50%;" />
 
 
